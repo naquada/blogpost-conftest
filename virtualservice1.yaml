@@ -1,0 +1,9 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: foo
+spec:
+  hosts:
+  - svc1.internal.tld
+  - svc2.internal.tld
+  - svc3.internal.tld

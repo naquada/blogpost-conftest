@@ -1,0 +1,9 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: foobar
+spec:
+  hosts:
+  - svc5.internal.tld
+  - svc6.internal.tld
+  - svc7.internal.tld
